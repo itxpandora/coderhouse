@@ -1,0 +1,41 @@
+/* p{
+    color: #547041;
+}
+
+.p_different:hover{
+    color: #b03bb6;
+}
+
+button{
+    background-color: #6096c6;
+    padding: 12px;
+    border-radius: 80px;
+}
+
+button:hover{
+    background-color: #31318a;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:visited{
+    color: #e03030;
+} */
+
+/* p:not(.p_different){
+    color: #547041;
+} */
+
+article:first-child{
+    color: #346998;
+}
+
+p:last-child{
+    color: #9b459f;
+}
+
+p:nth-child(2){
+    color: #9c4545;
+} 

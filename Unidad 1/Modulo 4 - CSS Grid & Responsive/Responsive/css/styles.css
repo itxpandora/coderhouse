@@ -1,0 +1,32 @@
+.grid-container{
+    background-color: aqua;
+}
+
+p{
+    font-size: 2rem;
+}
+
+/* Media Queries */
+/* Breakpoint mobile 480px-500px */
+
+@media(max-width: 480px) {
+    .grid-container{
+        background-color: blue;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+}
+
+/* Breakpoint tablet 1024px */
+
+ @media(min-width: 481px) and (max-width: 1024px) {
+    .grid-container{
+        background-color: green;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+}

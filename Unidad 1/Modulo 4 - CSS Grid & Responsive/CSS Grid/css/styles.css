@@ -1,0 +1,54 @@
+.grid-container{
+    height: 100vh;
+    border: 1px solid blue;
+    display: grid;
+
+    grid-template-columns: 150px 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr; fr es una unidad de medida que representa una fraccion del espacio disponible y SOLO SIRVE en GRID */
+    /* grid-template-columns: repeat(3, 300px); /* El 3 repite la cantidad de columnas y lo que le sigue es la medida de cada columna, mismo resultado, mas rapido */
+    /* grid-template-rows: repeat(3, 300px); grid-template-rows es para definir las filas, funciona igual que grid-template-columns */ 
+
+
+
+    justify-content: center; /* justify-content es para alinear el grid en el eje horizontal, funciona igual que en flexbox */
+    align-items: stretch; /* align-items es para alinear el grid en el eje vertical, funciona igual que en flexbox */
+
+    grid-template-areas:
+        "nav encabezado encabezado"
+        "nav descripcion descripcion"
+        "info info info";
+     /* grid-template-areas es para definir las areas del grid, cada area se define con un nombre y se asigna a cada item del grid con grid-area. */
+}
+
+.grid-area{
+    border: 1px solid black;
+}
+
+.hijo{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+    justify-self: flex-end; /* justify-self es para alinear el item en el eje horizontal, funciona igual que justify-content pero a nivel de item */
+    align-self: flex-end; /* align-self es para alinear el item en el eje vertical, funciona igual que align-items pero a nivel de item */
+}
+
+.encabezado{
+    grid-area: encabezado;
+    background-color: green;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: blue;
+}
+
+.descripcion{
+    grid-area: descripcion;
+    background-color: red;
+}
+
+.info{
+    grid-area: info;
+    background-color: yellow;
+}

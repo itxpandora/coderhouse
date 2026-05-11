@@ -1,0 +1,49 @@
+ /*CSS traducido al español es: Hojas de Estilo en Cascada, por lo que SIEMPRE se lee desde arriba hacia abajo*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+ h1{
+    /*propiedad: valor; (los estilos de .css siempre se manejan con este parametro*/
+    color: red;
+}
+
+ /*la clase se puede usar en varios elementos al mismo tiempo, pero no tiene tanta prioridad como el ID*/
+.subtitle_1{
+    color: green;
+}
+
+.subtitle_2{
+    color: sienna;
+}
+
+ /*el ID tiene prioridad por sobre las clases (class), ya que es unico y no se puede repetir a varios elementos. Es usado comunmente con javascript*/
+#sub_id{
+    color: blueviolet;
+}
+
+main{
+    background-color: paleturquoise;
+}
+
+ul li{
+    list-style: none;
+}
+
+h2{
+    color:blue;
+}
+
+main p{
+    color: orange;
+    font-family: "Sekuya", system-ui;
+    font-weight: 100;
+}
+
+main .subtitle_2{
+    color: blue;
+}

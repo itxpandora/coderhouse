@@ -1,0 +1,63 @@
+/* Cada elemento (caja) tiene padding, border y margin:
+El padding es el espacio entre el contenido y el borde de la caja. 
+El border es el borde que rodea la caja. 
+El margin es el espacio entre la caja y otros elementos. */
+
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+h1{
+    /* margin-top: 10px;
+    margin-right: 12px;
+    margin-bottom: 14px;
+    margin-left: 16px; */
+    /* 
+    margin: 10px 12px 14px 16px; margin: top right bottom left
+    margin: 8px 16px; margin: top/bottom right/left */
+    margin: 12px; /* margin: top/right/bottom/left; */
+    border: 3px solid black;
+}
+
+h2{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+p{
+    margin-top: 24px;
+}
+
+.cuadro{
+    margin: 16px;
+    padding: 8px;
+}
+
+.button{
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 16px;
+    text-decoration: none;
+    background-color: rgb(246, 166, 244);
+    color : black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row; /* row, row-reverse, column, column-reverse */
+    justify-content: center; /* flex-start, flex-end, center, space-between, space-around */
+    align-items: center; /* flex-start, flex-end, center, stretch */
+    flex-wrap: wrap; /* nowrap, wrap, wrap-reverse */
+    gap: 24px; 
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(246, 166, 244);
+    border: 5px solid black;
+    font-size: 1.5rem;
+}
