@@ -1,0 +1,15 @@
+//Comando para activar SASS: sass --watch '.\Unidad 1\Modulo 7 - SASS\scss\main.scss' '.\Unidad 1\Modulo 7 - SASS\css\styles.css'
+
+//BASE
+@use "./partials/base/reset";
+@use "./partials/base/typography";
+
+//COMPONENTS
+@use "./partials/components/cards";
+@use "./partials/components/tags";
+@use "./partials/components/buttons";
+
+//LAYOUT
+@use "./partials/layout/index";
+@use "./partials/layout/aboutUs";
+@use "./partials/layout/contact";

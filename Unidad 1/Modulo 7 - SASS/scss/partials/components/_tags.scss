@@ -1,0 +1,15 @@
+@use "../utilities/variables";
+@use "../utilities/mixin";
+
+.program-tag-inicial{
+    @include mixin.tag (variables.$primary-color, variables.$primary-light, variables.$white);
+}
+.program-tag-medium{
+    @include mixin.tag (variables.$secondary-color, variables.$primary-light, variables.$white);
+}
+.program-tag-advance{
+    @include mixin.tag (variables.$success-color, variables.$primary-light, variables.$white);
+}
+.program-tag-expert{
+    @include mixin.tag (variables.$danger-color, variables.$primary-light, variables.$white);
+}

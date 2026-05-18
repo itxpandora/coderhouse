@@ -1,0 +1,16 @@
+@mixin flex ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin tag ($border-color, $background-color, $color){
+    padding: 12px;
+    border-radius: 80px;
+    border: 0.5px solid $border-color;
+    background-color: $background-color;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: $color;
+}

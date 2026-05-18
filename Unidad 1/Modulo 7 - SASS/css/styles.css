@@ -1,0 +1,136 @@
+h1 {
+  color: #007bff;
+}
+
+h2 {
+  color: #6c757d;
+}
+h2 strong {
+  color: #28a745;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 500;
+  line-height: 86px;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-container .card {
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 250px;
+  height: 250px;
+}
+.card-container .card h4 {
+  font-size: 1.5rem;
+}
+.card-container .card p {
+  margin: 8px 0;
+}
+
+.program-tag-inicial {
+  padding: 12px;
+  border-radius: 80px;
+  border: 0.5px solid #007bff;
+  background-color: #c6daf1;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.program-tag-medium {
+  padding: 12px;
+  border-radius: 80px;
+  border: 0.5px solid #6c757d;
+  background-color: #c6daf1;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.program-tag-advance {
+  padding: 12px;
+  border-radius: 80px;
+  border: 0.5px solid #28a745;
+  background-color: #c6daf1;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.program-tag-expert {
+  padding: 12px;
+  border-radius: 80px;
+  border: 0.5px solid #dc3545;
+  background-color: #c6daf1;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.dudas {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 80px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.contact-button, .admin {
+  background-color: coral;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 80px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+.contact-button:hover, .admin:hover {
+  background-color: tomato;
+}
+
+.dudas {
+  background-color: coral;
+}
+
+.admin {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=styles.css.map */

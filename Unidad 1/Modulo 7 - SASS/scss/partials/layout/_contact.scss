@@ -1,0 +1,23 @@
+@use "../utilities/variables";
+@use "../utilities/extend";
+
+.contact-button{
+    background-color: coral;
+    display: inline-block;
+    padding: 12px;
+    border-radius: 80px;
+    text-decoration: none;
+    color: antiquewhite;
+
+    &:hover{
+        background-color: tomato;
+    }
+}
+.dudas{
+    @extend %button;
+    background-color: coral;
+}
+.admin{
+    @extend .contact-button;
+    background-color: purple;
+}
