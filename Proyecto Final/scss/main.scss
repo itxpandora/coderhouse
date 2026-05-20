@@ -1,0 +1,11 @@
+//Comando para activar SASS: sass --watch '.\Proyecto Final\scss\main.scss' '.\Proyecto Final\css\styles.css'
+
+//BASE
+@use "./partials/base/reset";
+@use "./partials/base/typography";
+
+//COMPONENTS
+
+
+//LAYOUT
+@use "./partials/layout/index";
