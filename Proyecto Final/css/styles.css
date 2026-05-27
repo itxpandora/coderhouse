@@ -1,7 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
-.navbar-brand {
+.dark_blackgrid_typography {
   font-family: "Orbitron";
   font-style: normal;
+  color: #050505;
+}
+
+.blackgrid_typography {
+  font-family: "Orbitron";
+  font-style: normal;
+  color: #F8F8F8;
+}
+
+.p_typography {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: #B8B8B8;
+}
+
+.main-content {
+  background-image: url("../src/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 /*# sourceMappingURL=styles.css.map */
