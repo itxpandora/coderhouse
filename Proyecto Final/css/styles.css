@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+.blackgrid_typography {
+  font-family: "Orbitron";
+  font-style: normal;
+  color: #FFE88A;
+}
+
 .dark_blackgrid_typography {
   font-family: "Orbitron";
   font-style: normal;
   color: #050505;
 }
 
-.blackgrid_typography {
+.light_blackgrid_typography {
   font-family: "Orbitron";
   font-style: normal;
   color: #F8F8F8;
@@ -17,11 +23,42 @@
   color: #B8B8B8;
 }
 
-.main-content {
+.footer_typography {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: #B8B8B8;
+}
+
+.main_content {
   background-image: url("../src/background.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
+}
+
+.blackgrid_navbar {
+  background-color: #111111 !important;
+}
+
+.blackgrid_navbar_link {
+  color: #FFF4C2 !important;
+}
+
+.blackgrid_navbar_link:hover {
+  color: #F5C542 !important;
+}
+
+.active_blackgrid_navbar_link {
+  color: #FFE88A !important;
+}
+
+.dropdown-menu {
+  background-color: #111111 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #050505 !important;
+  color: #F5C542 !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

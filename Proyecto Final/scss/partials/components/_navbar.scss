@@ -1,0 +1,26 @@
+@use "../utilities/variables";
+
+.blackgrid_navbar {
+    background-color: variables.$bg-secondary!important;
+}
+
+.blackgrid_navbar_link{
+    color: variables.$text-glow!important; 
+}
+
+.blackgrid_navbar_link:hover {
+    color: variables.$color-primary!important;
+}
+
+.active_blackgrid_navbar_link {
+    color: variables.$color-primary-light!important;
+}
+
+.dropdown-menu {
+    background-color: variables.$bg-secondary!important;
+}
+
+.dropdown-item:hover {
+    background-color: variables.$bg-primary!important;
+    color: variables.$color-primary!important;
+}

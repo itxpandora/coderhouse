@@ -2,19 +2,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
+.blackgrid_typography {
+    font-family: 'Orbitron';
+    font-style: normal;
+    color: variables.$color-primary-light;
+}
+
 .dark_blackgrid_typography {
     font-family: 'Orbitron';
     font-style: normal;
     color: variables.$bg-primary;
 }
 
-.blackgrid_typography {
+.light_blackgrid_typography {
     font-family: 'Orbitron';
     font-style: normal;
     color: variables.$text-title;
 }
 
 .p_typography {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: variables.$text-primary;
+}
+
+.footer_typography {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     color: variables.$text-primary;
