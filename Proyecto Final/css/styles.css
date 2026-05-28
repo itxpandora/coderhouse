@@ -27,13 +27,11 @@
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   color: #B8B8B8;
+  margin: 0px;
 }
 
-.main_content {
-  background-image: url("../src/background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
+.navbar-brand:hover {
+  color: #FFE88A !important;
 }
 
 .blackgrid_navbar {
@@ -59,6 +57,17 @@
 .dropdown-item:hover {
   background-color: #050505 !important;
   color: #F5C542 !important;
+}
+
+.card {
+  --bs-card-border-color: transparent;
+}
+
+.main_content {
+  background-image: url("../src/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 /*# sourceMappingURL=styles.css.map */

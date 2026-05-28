@@ -5,9 +5,10 @@
 @use "./partials/base/typography";
 
 //COMPONENTS
-
+@use "./partials/components/navbar";
+@use "./partials/components/cards";
 
 //LAYOUT
 @use "./partials/layout/index";
-@use "./partials/components/navbar";
+
 
