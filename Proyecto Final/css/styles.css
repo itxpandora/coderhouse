@@ -5,6 +5,23 @@
   color: #FFE88A;
 }
 
+.blackgrid_typography_subtitle {
+  font-family: "Orbitron";
+  font-style: normal;
+  color: #FFE88A;
+  font-size: 1.75rem;
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  .blackgrid_typography_subtitle {
+    font-size: 1.375rem;
+  }
+}
+@media (max-width: 480px) {
+  .blackgrid_typography_subtitle {
+    font-size: 1rem;
+  }
+}
 .dark_blackgrid_typography {
   font-family: "Orbitron";
   font-style: normal;
@@ -21,8 +38,19 @@
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   color: #B8B8B8;
+  font-size: 1rem;
 }
 
+@media (min-width: 481px) and (max-width: 1024px) {
+  .p_typography {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .p_typography {
+    font-size: 0.75rem;
+  }
+}
 .footer_typography {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -32,6 +60,10 @@
 
 .navbar-brand:hover {
   color: #FFE88A !important;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .blackgrid_navbar {
@@ -63,6 +95,22 @@
   --bs-card-border-color: transparent;
 }
 
+@media (max-width: 480px) {
+  .card {
+    width: 60%;
+  }
+  .p_typography {
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .card {
+    width: 80%;
+  }
+  .p_typography {
+    font-size: 0.9rem;
+  }
+}
 .main_content {
   background-image: url("../src/background.png");
   background-size: cover;
